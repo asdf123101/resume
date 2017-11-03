@@ -1,0 +1,9 @@
+# tmp files
+auto
+tmp
+*synctex*
+DTex
+LTex
+*.pdf
+*mint*
+CL
