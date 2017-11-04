@@ -48,7 +48,7 @@
 \hypersetup{colorlinks,breaklinks,urlcolor=link,linkcolor=link}
 \setkomafont{disposition}{\color[HTML]{000000}}
 \setkomafont{section}{\scshape\Large\mdseries}
-\setlist[itemize]{noitemsep, topsep=0pt,leftmargin=*}
+\setlist[itemize]{itemsep=1pt, topsep=0pt,leftmargin=*}
 % In tccv \part must contain the subject of the curriculum vitae.
 % The command will start a new page and output in onecolumn the
 % subject (first and last name) with the hardcoded text
@@ -119,7 +119,7 @@
       \medskip
 	{\Large ##2}
 	\medskip
-	\renewcommand\inskip{\smallskip}}}
+	\renewcommand\inskip{\medskip}}}
 
 % Use only \item inside this environment: no other macros
 % are allowed:

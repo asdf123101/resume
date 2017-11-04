@@ -11,35 +11,39 @@
   \listitem{2017.02 -- Present}
   {Automated PDE solver}
   \begin{itemize}[leftmargin=*]
-  \item Optimized hybridizable discontinuous Galerkin discretization and improved its computation speed by around 50\%
+  \item Optimized hybridizable discontinuous Galerkin discretization and improved its computation speed by around 50\% using Schur complement
   \item Implemented adaptive $hp$ refinement which significantly accelerates convergence
-  \item Developed hybridizable discontinuous Petrov-Galerkin discretization, bench-marked its performance, and demonstrated its strong stability on solving complicated flow problems with flow features in different scales
+  \item Develope hybridizable discontinuous Petrov-Galerkin (HDPG) discretization, bench-marke its performance, and demonstrate its strong stability on solving complicated flow problems with flow features in different scales
   \end{itemize}
   
   \listitem{2017.04 -- Present}
   {Personal website \href{https://www.nioh.ca}{Nioh}}
   \begin{itemize}
-    \item Implemented responsive design, code splitting, and reduced dependence on external resources, leading to fast loading speed with average load time under 2 seconds on normal 4G network
-    \item Designed and coded almost every UI component on the website with React and Redux 
-    \item Experimented with modern web design features like progressive image loading and JavaScript features like \texttt{fetch}
-    \item Developed a simple content management system for managing blog posts on Node.js
-    \item 90\% test coverage with over 50 test suites and 400 unit tests
+    \item Independently design and code almost every UI component on the website with React and Redux 
+    \item Experimente with modern web design features like progressive image loading, JavaScript features like \texttt{fetch}, adn CSS features like \texttt{filter}
+    \item Develope a simple but efficient content management system for managing blog posts on Node.js
+    \item 90\% test coverage with over 50 test suites and 400 unit tests, covering UI interactions, error handling, and XHR 
+    \item Implemented responsive design and reduced dependence on external resources, leading to fast loading speed with average load time under 2 seconds on normal 4G network
   \end{itemize}
 
-  %   \listitem{2016.09 -- Present}
-  % {Web server deployment}
-
-  % Building and deployment of web server. Installation and testing of LAMP and MERN stack, ownCloud sync service, and Dnsmasq network infrastructure including local domain name resolution and DNS caching. Hosting and maintenance of development version of personal website Nioh.
+  \listitem{2016.09 -- Present}
+  {Web server deployment}
+  \begin{itemize}
+    \item Maintain a private web server and various services on it, including Gitlab, Jenkins continuous integration, and dnsmasq 
+    \item Host staging version of Nioh and facilitate the website's performace tests and UX tests
+  \end{itemize}
 
   \listitem{2016.09 -- 2017.04}
   {Adaptive finite element solver}
+  \begin{itemize}
+    \item Developed an autmomated 1D PDE solver based on HDPG discretization in Python
+    \item Designed a complete solution procedure, including a command line interface that establishes the problem and invokes HDPG discretization, mesh adaptation based on dual-weighted residual, and solution and convergence visualization
+  \end{itemize}
 
-  Development of an automated 1D PDE solver based on HDPG discretization in Python. Designed a complete solution procedure: a command line interface that establishes the problem and invokes the HDPG discretization, mesh adaptation based on dual-weighted residual, and solution and convergence visualization using \texttt{matplotlib}.
-
-  \listitem{2016.01 -- 2016.05}
-  {Flow over low Reynold number airfoil}
+  % \listitem{2016.01 -- 2016.05}
+  % {Flow over low Reynolds number airfoil}
   
-  Simulation and investigation of the flow separation, transition, and reattachment over SD7003 at 4 and 8 degrees angle of attack by solving RANS equations in ANSYS Fluent. Compared simulation results to experimental data and demonstrated the accuracy of the simulation technique.
+  % Simulation and investigation of the flow separation, transition, and reattachment over SD7003 at 4 and 8 degrees angle of attack by solving RANS equations in ANSYS Fluent. Compared simulation results to experimental data and demonstrated the accuracy of the simulation technique.
 
   % \item{2015.08 -- 2016.01}
   % {Investigation of spurious artifacts}
@@ -101,7 +105,7 @@
   {React.js, Redux, HTML, CSS, JavaScript, MATLAB, Git, \LaTeX, Linux}
 
   \item{Intermediate}
-  {C\texttt{++}, Python, Bash, Docker, Cmake, Node.js, Express, Redux-Saga}
+  {C\texttt{++}, Python, Bash, Docker, Cmake, Node.js, Express, Redux Saga}
 
 \end{factlist}
 
